@@ -102,5 +102,5 @@ function winner() {
         if (sideways) return first
     }
 
-    return board.filter(v => v == "").length == 0 ? "tie" : undefined
+    return board.filter(v => v == "").length == 0 ? "Égalité" : undefined
   }
